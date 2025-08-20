@@ -1,5 +1,5 @@
 def newton(x0, f):
-    eps = 0.000001
+    eps = 1e-5
     diff = 1
     while abs(diff) > eps:
         f1 = (f(x0 + eps) - f(x0 - eps)) / (eps*2)
