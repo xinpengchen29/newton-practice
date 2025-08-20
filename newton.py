@@ -1,4 +1,5 @@
 def newton(x0, f):
+    """Returns the numerical approximation of a function using Newton Raphson."""
     eps = 1e-5
     diff = 1
     while abs(diff) > eps:
